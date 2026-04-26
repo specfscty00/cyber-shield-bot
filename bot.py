@@ -274,7 +274,7 @@ async def button(upd, ctx):
         await q.edit_message_text(txt, reply_markup=main_menu())
         return
     if data == "about":
-        await q.edit_message_text("ℹ️ О проекте\nАвтор: MrBulbaOO1 (12 лет, Брест)\nКонкурс #КиберПраво\nКонтакты: a.carantine@gmail.com", reply_markup=main_menu())
+        await q.edit_message_text("ℹ️ О проекте\nАвтор: MrBulbaOO1 (12 лет, Беларусь)\nКонкурс #КиберПраво\nКонтакты: Stepanchuk2024@gmail.com", reply_markup=main_menu())
         return
     if data.startswith("cat_"):
         cat = data[4:]
