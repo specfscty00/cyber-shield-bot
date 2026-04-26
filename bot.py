@@ -10,7 +10,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.error import BadRequest
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("TOKEN")
+TOKEN = "TOKEN"
 if not TOKEN:
     print("Ошибка: задайте переменную окружения TOKEN")
     sys.exit(1)
