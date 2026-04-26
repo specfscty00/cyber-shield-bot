@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Telegram-бот Cyber Shield
-Автор: MrBulbaOO1, 12 лет, Беларусь
+Автор: Степанчук Максим Вадимович, 12 лет, Брест
 Конкурс #КиберПраво
 """
 import os, json, random, logging, asyncio, re, sys
